@@ -16,7 +16,7 @@ title {
 
 
 body::after {
-    content: "Author: Brembo.py | Discord: https://discord.gg/H6St7mVf7T | GitHub: https://github.com/Brembo19";
+    content: "Author: Brembo.py | 
     display: block;
     position: fixed;
     bottom: 10px;

@@ -1,1 +1,32 @@
+@import url("https://raw.githubusercontent.com/Brembo19/brebmo.py/main/Brembo.css");
 
+title::after {
+    content: "Brembo.py version 1.0";
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0;
+}
+
+title {
+    visibility: hidden;
+}
+
+
+body::after {
+    content: "Author: Brembo.py | Discord: https://discord.gg/H6St7mVf7T | GitHub: https://github.com/Brembo19";
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
